@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/PhuocLinh/OptImagePicker/OptImagePicker.git", :tag => s.version }  
+  s.source       = { :git => "https://github.com/PhuocLinh/OptImagePicker.git", :tag => s.version }  
   s.source_files  = ["OptImagePicker/*.{h,m}"]
   s.exclude_files    = "OptImagePicker/OptImagePicker.h"
   s.resource_bundles = { "OptImagePicker" => "OptImagePicker/*.{lproj,storyboard}" }
