@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "OptImagePicker"
-  s.version      = "0.1"
+  s.version      = "0.3"
   s.summary      = "Optimize UIImagePickerController with multiple selection support."
   s.homepage     = "https://github.com/PhuocLinh/OptImagePicker"
   s.license      = { :type => "MIT", :file => "LICENSE" }
