@@ -38,6 +38,13 @@
     [imagePickerController setDidFinishPickingAssets:^(OptImagePickerController *imagePickerController, NSArray *assets) {
         NSLog(@"Selected assets:");
         NSLog(@"%@", assets);
+        
+        [assets.firstObject requestContentEditingInputWithOptions:nil
+                                   completionHandler:^(PHContentEditingInput *contentEditingInput, NSDictionary *info) {
+                                       NSURL *imageURL = contentEditingInput.fullSizeImageURL;
+                                       NSLog(@"%@",imageURL);
+                                   }];
+        
         [self dismissViewControllerAnimated:YES completion:NULL];
     }];
 }
