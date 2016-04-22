@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20C22A8C1CCA2F5200E77F2C /* RecordButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C22A8A1CCA2F5200E77F2C /* RecordButton.h */; };
+		20C22A8D1CCA2F5200E77F2C /* RecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C22A8B1CCA2F5200E77F2C /* RecordButton.m */; };
 		20C6B7F31CC87B43003D8A26 /* OptImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C6B7F21CC87B43003D8A26 /* OptImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20C6B8021CC87B95003D8A26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6B8011CC87B95003D8A26 /* main.m */; };
 		20C6B8051CC87B95003D8A26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C6B8041CC87B95003D8A26 /* AppDelegate.m */; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20C22A8A1CCA2F5200E77F2C /* RecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordButton.h; sourceTree = "<group>"; };
+		20C22A8B1CCA2F5200E77F2C /* RecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordButton.m; sourceTree = "<group>"; };
 		20C6B7EF1CC87B43003D8A26 /* OptImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OptImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C6B7F21CC87B43003D8A26 /* OptImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptImagePicker.h; sourceTree = "<group>"; };
 		20C6B7F41CC87B43003D8A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -166,6 +170,8 @@
 				20C6B82B1CC87D09003D8A26 /* OptSlomoIconView.m */,
 				20C6B82F1CC87D48003D8A26 /* OptVideoIndicatorView.h */,
 				20C6B8301CC87D48003D8A26 /* OptVideoIndicatorView.m */,
+				20C22A8A1CCA2F5200E77F2C /* RecordButton.h */,
+				20C22A8B1CCA2F5200E77F2C /* RecordButton.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -202,6 +208,7 @@
 				20C6B8411CC87E0D003D8A26 /* OptAssetsViewController.h in Headers */,
 				20C6B8371CC87D93003D8A26 /* OptImagePickerController.h in Headers */,
 				20C6B8311CC87D48003D8A26 /* OptVideoIndicatorView.h in Headers */,
+				20C22A8C1CCA2F5200E77F2C /* RecordButton.h in Headers */,
 				20C6B81D1CC87C18003D8A26 /* OptAssetCell.h in Headers */,
 				20C6B8171CC87BDB003D8A26 /* OptAlbumCell.h in Headers */,
 				20C6B7F31CC87B43003D8A26 /* OptImagePicker.h in Headers */,
@@ -313,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C22A8D1CCA2F5200E77F2C /* RecordButton.m in Sources */,
 				20C6B81E1CC87C18003D8A26 /* OptAssetCell.m in Sources */,
 				20C6B82D1CC87D09003D8A26 /* OptSlomoIconView.m in Sources */,
 				20C6B83D1CC87DDC003D8A26 /* OptAlbumsViewController.m in Sources */,
@@ -531,6 +539,7 @@
 				20C6B7F91CC87B43003D8A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C6B8121CC87B95003D8A26 /* Build configuration list for PBXNativeTarget "OptImagePickerDemo" */ = {
 			isa = XCConfigurationList;
@@ -539,6 +548,7 @@
 				20C6B8141CC87B95003D8A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
