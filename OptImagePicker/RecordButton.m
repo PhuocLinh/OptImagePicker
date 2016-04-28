@@ -22,9 +22,7 @@
     self = [super initWithFrame:aRect];
     
     if (self) {
-        [self addTarget:self action:@selector(didTouchDown) forControlEvents:UIControlEventTouchDown];
-        [self addTarget:self action:@selector(didTouchUp) forControlEvents:UIControlEventTouchUpInside];
-        [self addTarget:self action:@selector(didTouchUp) forControlEvents:UIControlEventTouchUpOutside];
+        [self addTarget:self action:@selector(didTouchDown) forControlEvents:UIControlEventTouchUpInside];
         [self drawButton];
     }
     
@@ -35,9 +33,7 @@
     self = [super initWithCoder:coder];
     
     if (self) {
-        [self addTarget:self action:@selector(didTouchDown) forControlEvents:UIControlEventTouchDown];
-        [self addTarget:self action:@selector(didTouchUp) forControlEvents:UIControlEventTouchUpInside];
-        [self addTarget:self action:@selector(didTouchUp) forControlEvents:UIControlEventTouchUpOutside];
+        [self addTarget:self action:@selector(didTouchDown) forControlEvents:UIControlEventTouchUpInside];
         [self drawButton];
     }
     

@@ -19,5 +19,6 @@
 
 - (void)setProgress:(CGFloat)newProgress;
 - (void)setButtonImage:(UIImage*)image;
+- (void)didTouchUp;
 
 @end
