@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Linh Luu" => "luuphuoclinh@gmail.com" }
 
-  s.platform         = :ios, "8.01"
+  s.platform         = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/PhuocLinh/OptImagePicker.git", :tag => s.version }  
   s.source_files  = ["OptImagePicker/*.{h,m}"]
